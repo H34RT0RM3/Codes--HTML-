@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Cartoon </title>
+</head>
+<body>
+    <!-- BG and making it in centre -->
+   <style>
+    * {
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 25px;
+      background-color: #1a1919;
+      color: orange;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ===== Navigation Bar ===== */
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #111;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      border-bottom: 1px solid orange;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: orange;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    /* ===== Content Layout ===== */
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .container img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.4s ease;
+    }
+
+    .container img:hover {
+      transform: scale(1.05);
+    }
+
+    img.profile {
+      display: block;
+      margin: auto;
+      width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    h1, h2, p, a {
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    a {
+      color: rgb(216, 85, 10);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #923d3d;
+    }
+  </style>
+    <h1>My Favourite Cartoons</h1>
+  <div class="container">
+    <img src="https://i.imgur.com/1y9OJxW.png" alt="Chikoo Aur Bunty">
+    <img src="https://i.imgur.com/iiYpLJC.png" alt="Motu Patlu">
+    <img src="https://i.imgur.com/IB8hhl1.png" alt="Abhimanyu Ki Alien Family">
+  </div>
+    <h2>Chikoo Aur Bunty</h2>
+    <p>Chikoo Aur Bunty is a popular Indian animated series that follows the adventures of two brothers, Chikoo and Bunty. The show is known for its humor, action themes, and engaging storylines that appeal to children. It often features Chikoo and Bunty getting into various mischiefs.</p>  
+    <h2>Motu Patlu</h2>
+    <p>Motu Patlu is a beloved Indian animated series that follows the comedic adventures of two friends, Motu and Patlu, in the fictional town of Furfuri Nagar. The show is known for its humor, action-packed episodes, and the duo's hilarious attempts to solve problems, often involving their nemesis, John the Don.</p>
+    <h2>Abhimanyu Ki Alien Family</h2>
+    <p>Abhimanyu Ki Alien Family is an Indian animated series that tells the story of Abhimanyu the alien and his alien family came to Earth. The show is known for its humor, action themes, and engaging storylines that appeal to children. It often features Abhimanyu and his family getting into various mischiefs.</p>
+    </div>
+</head>
+<body> 
+</body>
+</html>
